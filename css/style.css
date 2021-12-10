@@ -1,16 +1,29 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+.nav{
+    display: flex;
+}
+
 .WebStudio{
 font-weight: 700;
 font-size: 26px;
 color: #2196F3 ;
 color: #000;
-padding: 150px;
-margin: 0 0 0 0;
+margin: 25px 25px 95px 215px;
 width: 145px;
 height: 31px;
+
 }
+.header-list{
+    display: flex;
+    margin: 30px 30px  ;
+}
+.list{
+    
+}
+    
+
 .Студия{
 font-weight: 500;
 font-size: 14px;
@@ -37,10 +50,17 @@ font-size: 14px;
 height: 16px;
 }
 
+.nav-contacts{
+display: flex;
+
+}
+
+
+
 .Эффективные-решения{
     font-weight: 900;
     font-size: 44px;
-    color: #FFFFFF;;
+    color: yellowgreen;;
     padding: 450px 200px 450px 28px;
     width: 696px;
     height: 120px;
