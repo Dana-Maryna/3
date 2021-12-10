@@ -24,7 +24,7 @@ height: 31px;
 }
     
 
-.Студия{
+.studio{
 font-weight: 500;
 font-size: 14px;
 color: #2196F3;
@@ -33,7 +33,7 @@ height: 16px;
 padding: 95px;
 margin: ;
 }
-.Портфолио{
+.portfolio{
     font-weight: 500;
     font-size: 14px;
     color: #212121;
@@ -41,7 +41,7 @@ margin: ;
     width: 77px;
     height: 16px;
 }
-.Контакты{
+.contacts{
 font-weight: 500;
 font-size: 14px;
  color: #212121;;
@@ -55,17 +55,25 @@ display: flex;
 
 }
 
+.background{
+    background-color:  #2F303A ;
+    width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+}
 
-
-.Эффективные-решения{
+.effective-solutions{
     font-weight: 900;
     font-size: 44px;
-    color: yellowgreen;;
-    padding: 450px 200px 450px 28px;
+  color: #FFFFFF;
+    top: 280px;
     width: 696px;
     height: 120px;
+   
+    
 }
-.Услуга{
+.service{
     font-weight: bold;
     font-size: 16px;
     color: #FFFFFF;
@@ -73,7 +81,11 @@ display: flex;
     height: 50px;
     
 }
-.Title{
+.details{
+    display: flex;
+}
+
+.title{
     font-weight: bold;
      font-size: 14px;
      color: #212121; 
@@ -81,7 +93,7 @@ display: flex;
      width: 270px;
      height: 16px;
 }
-.Descriere{
+.descriere{
 font-weight: normal;
 font-size: 14px;
 color: #757575;
@@ -89,27 +101,37 @@ padding: 30px 10px 30px 95px ;
 width: 270px;
 height: 75px;
 }
-.What-are-we-doind{
+.what-are-we-doind{
     font-weight: bold;
    font-size: 36px;
    color: #212121;
 padding: 610px 95px 610px 50p;
 width: 376px;
 height: 42px;
+padding: 95px 610px;
+}
+.img{
+display: flex;
+}
+.img-2{
+    display: flex;
+
 }
 
-.Names{
+.names{
     font-weight: 500;
     font-size: 16px;
     color: #212121;
 
 }
 
-.WebStudio2{
+.webStudio2{
     font-weight: bold;
      font-size: 26px;
      color: #2196F3;
      padding: 215px 60px 1240px 20px;
      width: 145px;
      height: 31px;
+     width: 1600px;
+     height: 252px;
  }
