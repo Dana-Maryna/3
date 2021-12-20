@@ -5,13 +5,19 @@ body{
     display: flex;
 }
 
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .WebStudio{
 font-weight: 700;
 font-size: 26px;
 color: #2196F3 ;
 color: #000;
-margin: 25px 25px 95px 215px;
-width: 145px;
+margin: 25px 25px 95px ;
+
 height: 31px;
 
 }
@@ -19,9 +25,9 @@ height: 31px;
     display: flex;
     margin: 30px 30px  ;
 }
-.list{
-    
-}
+.List{
+    display: flex;
+ }
     
 
 .studio{
@@ -37,9 +43,8 @@ margin: ;
     font-weight: 500;
     font-size: 14px;
     color: #212121;
-    padding: 50px;
-    width: 77px;
-    height: 16px;
+    padding: 32px 0;
+   
 }
 .contacts{
 font-weight: 500;
@@ -52,6 +57,9 @@ height: 16px;
 
 .nav-contacts{
 display: flex;
+text-decoration: none;
+color: #757575;
+font-weight: 500;
 
 }
 
