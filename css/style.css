@@ -17,10 +17,14 @@ font-size: 26px;
 color: #2196F3;
 color: black;
 margin: 25px 25px 95px ;
-
 height: 31px;
+text-decoration: none;
 
 }
+.span{
+  color:   #2196F3;
+}
+
 .header-list{
     display: flex;
     margin: 30px 30px  ;
@@ -135,7 +139,17 @@ padding: 95px 610px;
 }
 .img{
 display: flex;
+    width: 1200px;
+    margin: 0px auto;
+    padding: 0px;
+
 }
+
+.img-box{
+    padding: 15px;
+}
+
+
 .img-2{
     display: flex;
 
