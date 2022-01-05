@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 .header{
@@ -14,6 +15,9 @@ body{
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .Web-Studio{
@@ -21,7 +25,7 @@ font-weight: 700;
 font-size: 26px;
 color: #2196F3;
 color: black;
-margin: 25px 25px 95px ;
+padding: 25px 0;
 height: 31px;
 text-decoration: none;
 
@@ -42,6 +46,12 @@ text-decoration: none;
     margin: 30px 30px  ;
     list-style: none;
 }
+
+.list{
+    margin-left: ;
+}
+
+
 .List{
     display: flex;
  
@@ -56,9 +66,9 @@ text-decoration: none;
 font-weight: 500;
 font-size: 14px;
 color: #2196F3;
-width: 49px;
+
 height: 16px;
-padding: 31px;
+padding: 31px 31px;
 margin: ;
 
 
@@ -105,9 +115,9 @@ top: 80px;
 
 .solutions{
 display: flex;
-    width: 1200px;
-    margin: 0px 520px;
+    justify-content: center;
     padding: 8px;
+
 
 
 }
@@ -118,29 +128,27 @@ display: flex;
 }
    
 .button{
-    width: 128px;
-height: 38px;
-left: 576px;
-top: 174px;
+    
 border-radius: 4px;
 color: #212121;
 background: #F5F4FA;
 border: none;
 font-weight: 500;
-padding: 8px;
+padding: 6px 22px;
+margin: 8px;
+font-size: 16px;
 }
 
 .button-2{
-    width: 73px;
-height: 38px;
-left: 481px;
-top: 174px;
+    
 color: #F5F4FA;
 border-radius: 4px;
 background:#2196F3;
 border: none;
 font-weight: 500;
 padding: 8px;
+margin: 8px;
+font-size: 16px;
 }
 
 .effective-solutions{
