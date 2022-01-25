@@ -34,6 +34,7 @@ text-decoration: none;
 .Web--Studio{
 
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 
@@ -269,4 +270,6 @@ margin-bottom: 30px;
       display: flex;
       color: #FFFFFF;
   }
- 
+ .decoration{
+     text-decoration: none;
+ }
