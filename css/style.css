@@ -9,6 +9,7 @@ body{
 
 .nav{
     display: flex;
+    align-items: center;
 }
 
 .header-container{
@@ -19,7 +20,7 @@ body{
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    display: flex;
+    
   
 }
 
@@ -30,6 +31,7 @@ color: #2196F3;
 color: black;
 margin-right: 93px;
 text-decoration: none;
+
 
 }
 
@@ -62,6 +64,8 @@ text-decoration: none;
 .List{
     display: flex;
  list-style: none;
+ padding: auto ;
+ margin: auto;
 }
   
 
@@ -75,7 +79,7 @@ font-size: 14px;
 color: #2196F3;
 
 height: 16px;
-padding: 31px 31px;
+
 margin: ;
 
 
@@ -104,6 +108,7 @@ color: #757575;
 display: flex;
 font-weight: 500;
 margin-right: auto;
+margin-left: auto;
 }
 
 
@@ -157,6 +162,11 @@ font-size: 16px;
     font-weight: 900;
     font-size: 44px;
   color: #FFFFFF;
+   margin-bottom: 30px;
+   margin-top: auto;
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 50px;
    
    
     
@@ -180,7 +190,9 @@ font-size: 16px;
 }
 .details{
     display: flex;
-    margin: 50px 50px;
+   
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .title{
@@ -188,17 +200,17 @@ font-size: 16px;
     font-weight: bold;
      font-size: 14px;
      color: #212121; 
-     margin-left: 20px;
+     
      list-style:none;
      text-emphasis: none;
      text-decoration: none;
      margin: bottom 20px;;
-     margin-top: auto;
+    
      
    
 }
 .descriere{
-font-weight: normal;
+
 font-size: 14px;
 color: #757575;
 
