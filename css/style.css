@@ -51,10 +51,14 @@ text-decoration: none;
    margin: 0px;
    padding: 0px;
     list-style: none;
-    margin-right: ;
+   
 }
 
-.list{
+:nth-child{
+
+margin-right: 50px;
+}
+.-nav-contacts-list{
     list-style: none;
     margin-right: 30px;
     padding: 0px;
@@ -64,9 +68,7 @@ text-decoration: none;
 .List{
     display: flex;
  list-style: none;
- padding: auto ;
- margin: auto;
-}
+ 
   
 
     
@@ -107,8 +109,7 @@ text-decoration: none;
 color: #757575;
 display: flex;
 font-weight: 500;
-margin-right: auto;
-margin-left: auto;
+
 }
 
 
