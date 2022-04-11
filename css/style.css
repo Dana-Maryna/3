@@ -11,7 +11,7 @@ body{
 .header-2{
     padding-top: 25px;
     padding-bottom: 25px;
-    border-bottom: 1px;
+    border-bottom: 1px solid;
 }
 
 .nav{
@@ -28,7 +28,7 @@ body{
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    
+    list-style: none;
   
 }
 
@@ -69,16 +69,24 @@ margin-right: 50px;
 
 .list{
     list-style: none;
-    margin-right: 30px;
+    nth-child{margin-right: 30px;}
     padding: 0px;
     text-decoration: none;
 }
 
+.nav-contacts-list{
+    display:flex;
+    align-items: center;
+    margin-left: auto;
+}
 
 .nav-contacts{
-    display: flex;
+   
  list-style: none;
 margin-left: auto;
+}
+.margin{
+    margin-right: auto;
 }
  
   .studio{
@@ -191,9 +199,12 @@ font-size: 16px;
  border-radius: 4px;
  margin: 0 auto;
  display: block;
+padding-top: 0ch;
 
+    .section{
+        padding-top: display: ;;
+    }
 
-    
 }
 .details{
     display: flex;
@@ -210,17 +221,26 @@ font-size: 16px;
      list-style:none;
      text-emphasis: none;
      text-decoration: none;
-     margin: bottom 20px;;
+     margin-bottom: 23px;
     
      
    
 }
 .descriere{
-
+margin: 0px;
 font-size: 14px;
 color: #757575;
 
 }
+
+.section-2{
+padding-bottom: 0ch;
+    padding-top: 0ch;
+}
+
+   
+
+
 .what-are-we-doind{
     font-weight: bold;
    font-size: 36px;
@@ -242,6 +262,8 @@ text-align: center;
 .img-2{
     display: flex;
 list-style: none;
+margin: 0px;
+padding: 0px;
 }
 
 .img-linc{
