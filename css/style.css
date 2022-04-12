@@ -11,7 +11,7 @@ body {
 .header-2 {
     padding-top: 25px;
     padding-bottom: 25px;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #2F303A;
 }
 
 .nav {
@@ -69,7 +69,7 @@ body {
 
 .list:not(:last-child) {
 
-    margin-right: 30px;
+    margin-right: 50px;
     list-style: none;
     padding: 0px;
     text-decoration: none;
@@ -79,6 +79,8 @@ body {
     display: flex;
     align-items: center;
     margin-left: auto;
+
+    padding: 45px;
 }
 
 .nav-contacts:not(:last-child) {
@@ -190,7 +192,7 @@ body {
     font-size: 44px;
     width: 696px;
     text-align: center;
-
+    text-transform: uppercase;
 }
 
 
@@ -216,7 +218,8 @@ body {
 
 .details {
     display: flex;
-    padding-top: ;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -225,7 +228,7 @@ body {
     font-weight: bold;
     font-size: 14px;
     color: #212121;
-    width: 270px;
+    padding-top: 0;
     list-style: none;
     text-emphasis: none;
     text-decoration: none;
@@ -235,12 +238,24 @@ body {
 
 }
 
+.li:not(:last-child) {
+    margin-right: 0;
+
+}
+
 .descriere {
     margin: 0px;
     font-size: 14px;
     color: #757575;
 
 }
+
+.section {
+    padding-top: 0%;
+}
+
+
+
 
 .section-2 {
     padding-bottom: 0ch;
