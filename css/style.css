@@ -79,16 +79,19 @@ body {
     display: flex;
     align-items: center;
     margin-left: auto;
+    margin: 0;
 
-    padding: 45px;
+
 }
 
 .nav-contacts:not(:last-child) {
-
+    color: #757575;
     margin-right: 30px;
-
     list-style: none;
     margin-left: auto;
+    font-size: larger;
+
+
 }
 
 .margin {
@@ -208,31 +211,34 @@ body {
     margin: 0 auto;
     display: block;
     padding-top: 0ch;
-
-    .section {
-        padding-top: display:;
-        ;
-    }
-
 }
+
+.section {
+    padding-top: display:;
+    padding-top: 94px;
+}
+
+
 
 .details {
     display: flex;
     margin: 0;
     padding: 0;
-
+    list-style: none;
 }
 
 .title {
     text-decoration: none;
     font-weight: bold;
+    margin: 0;
     font-size: 14px;
+    text-transform: uppercase;
     color: #212121;
     padding-top: 0;
     list-style: none;
     text-emphasis: none;
     text-decoration: none;
-    margin-bottom: 23px;
+    margin-bottom: 12px;
 
 
 
@@ -240,7 +246,7 @@ body {
 
 .li:not(:last-child) {
     margin-right: 0;
-
+    width: 270px;
 }
 
 .descriere {
@@ -250,9 +256,6 @@ body {
 
 }
 
-.section {
-    padding-top: 0%;
-}
 
 
 
