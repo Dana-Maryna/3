@@ -36,6 +36,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     color: #2196F3;
+    font-family: raleway;
     color: black;
     margin-right: 93px;
     text-decoration: none;
@@ -76,22 +77,36 @@ body {
 }
 
 .nav-contacts-list {
+
     display: flex;
     align-items: center;
-    margin-left: auto;
     margin: 0;
+    margin-left: auto;
+    padding: 0;
+
+
 
 
 }
 
 .nav-contacts:not(:last-child) {
-    color: #757575;
-    margin-right: 30px;
-    list-style: none;
+
+
+    margin-right: 50px;
     margin-left: auto;
     font-size: larger;
 
 
+}
+
+.link-1 {
+    text-decoration: none;
+    color: #2196F3;
+}
+
+.link-2 {
+    text-decoration: none;
+    color: #757575;
 }
 
 .margin {
@@ -192,6 +207,7 @@ body {
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
+    letter-spacing: 0.06em;
     font-size: 44px;
     width: 696px;
     text-align: center;
@@ -210,12 +226,13 @@ body {
     border-radius: 4px;
     margin: 0 auto;
     display: block;
-    padding-top: 0ch;
+    padding-top: 16px;
 }
 
 .section {
     padding-top: display:;
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 
@@ -244,9 +261,14 @@ body {
 
 }
 
-.li:not(:last-child) {
-    margin-right: 0;
+.li {
     width: 270px;
+}
+
+
+.li:not(:last-child) {
+    margin-right: 30px;
+
 }
 
 .descriere {
@@ -261,8 +283,8 @@ body {
 
 
 .section-2 {
-    padding-bottom: 0ch;
-    padding-top: 0ch;
+    padding-bottom: 94px;
+    padding-top: 94px;
 }
 
 
@@ -273,15 +295,20 @@ body {
     font-size: 36px;
     color: #212121;
     text-align: center;
+    margin: 0;
+    margin-bottom: 52px;
 }
 
 
 .p {
     color: #757575;
+    margin: 0;
 }
 
 .ul {
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 .img-box:not(:last-child) {
@@ -310,6 +337,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     color: #212121;
+    margin: 0;
 
 }
 
@@ -320,6 +348,12 @@ body {
 .h3 {
     font-weight: bold;
     font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.div-2 {
+    margin-bottom: 30px;
+    display: flex;
 }
 
 .webStudio2 {
