@@ -5,7 +5,8 @@ body {
 
 .header {
     border-bottom: 1px solid #ECECEC;
-
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .header-2 {
@@ -184,7 +185,7 @@ body {
     font-weight: 500;
     padding: 6px 22px;
     margin: 8px;
-
+  
 }
 
 .button-2 {
@@ -197,6 +198,8 @@ body {
     padding: 8px;
     margin: 8px;
     font-size: 16px;
+    width: 73px;
+     height: 38px
 }
 
 .effective-solutions {
@@ -334,6 +337,12 @@ body {
     list-style: none;
 }
 
+.img{
+    display: flex;
+    list-style: none;
+    padding-bottom: 30px;
+}
+
 .names {
     font-weight: 500;
     font-size: 16px;
@@ -369,7 +378,7 @@ body {
 
 .background-3{
     background-color: #2F303A;
-    width: 1600px;
+    width: 1310px;
 height: 252px;
 }
 
@@ -396,11 +405,28 @@ height: 252px;
    
 }
 
+.Web-Studio-4{
+  margin-top: 60px;
+    text-decoration: none;
+    font-family: raleway;
+    color: #2196F3;
+    font-weight: 700;
+    font-size: 26px;
+   margin-left: 215px;
+}
+
 .span-2{
     color: #FFFFFF;
 }
 
 .address{
+
+    margin-left: 215px;
+    color: #FFFFFF;
+}
+
+.address-2{
+    margin-top: auto;
     margin-left: 215px;
     color: #FFFFFF;
 }
@@ -408,6 +434,19 @@ height: 252px;
 .link-3{
     list-style: none;
     margin-left: 180px;
+  
+    
+}
+
+.link-4{
+    list-style: none;
+    margin-left: 180px;
+ 
+    
+}
+
+.block{
+    margin-top: 100px;
 }
 
 .h2 {
