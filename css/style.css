@@ -181,7 +181,7 @@ body {
 
 display: flex;
 list-style: none;
-
+margin: 0 0 50px 0;
 }
 
 .button {
@@ -192,7 +192,7 @@ list-style: none;
     border: none;
     font-weight: 500;
     padding: 6px 22px;
-    margin: 8px;
+    margin-left: 8px;
   
 }
 
@@ -203,11 +203,10 @@ list-style: none;
     background: #2196F3;
     border: none;
     font-weight: 500;
-    padding: 8px;
-    margin: 8px;
+    padding: 6px 22px;
+    
     font-size: 16px;
-    width: 73px;
-     height: 38px
+    
 }
 
 
@@ -235,17 +234,19 @@ list-style: none;
     padding-left: 22px;
     padding-right: 22px;
     padding-bottom: 16px;
-    background: #2196F3;
     border-radius: 4px;
     margin: 0 auto;
     display: block;
     padding-top: 16px;
+    background:  #2196F3;
+    background-color: #188CE8;
 }
 
 .section {
     padding-top: display ;
     padding-top: 94px;
     padding-bottom: 94px;
+    background: #F5F4FA;
 }
 
 
@@ -289,9 +290,13 @@ list-style: none;
     font-size: 14px;
     color: #757575;
     line-height: 24px;
-    margin-bottom: 94px;
+   
 }
 
+.advantage{
+    padding-bottom: 0;
+    padding-top: 94px;
+}
 
 
 
@@ -314,6 +319,7 @@ list-style: none;
 }
 
 
+
 .p {
     color: #757575;
     margin: 0;
@@ -329,12 +335,14 @@ list-style: none;
   
     margin-right: 30px;
     list-style: none;
-    
+    background: white;
+    border-radius: 0px 0px 4px 4px;
 }
+
 
 .img-box-2:not(:last-child) {
 
-
+margin: 15px;
 
 
 }
@@ -367,8 +375,24 @@ list-style: none;
 .img .img-box-2:not(:last-child){
    
     width: fit-content;
+    margin: 15px;
    
     
+}
+
+.list-img {
+    margin: -15px;
+    display: flex;
+    flex-wrap:wrap;
+    padding: 0;
+    list-style: none;
+}
+
+.div-names{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+    text-align: center;
 }
 
 .names {
@@ -378,9 +402,13 @@ list-style: none;
     margin: 0;
 
 }
+.p-2{
+    color: #757575;
+}
 
 .div {
     padding: 20px 24px ;
+    border: 1px solid #ECECEC;
 }
 
 .h3 {
@@ -404,10 +432,9 @@ list-style: none;
     padding-bottom: 200px;
 }
 
-.background-3{
+.footer{
     background-color: #2F303A;
-    width: 1310px;
-height: 252px;
+    padding: 60px;
 }
 
 .webStudio2 {
@@ -440,7 +467,7 @@ height: 252px;
     color: #2196F3;
     font-weight: 700;
     font-size: 26px;
-   margin-left: 215px;
+   
 }
 
 .span-2{
@@ -469,7 +496,9 @@ height: 252px;
 .link-4{
    
     list-style: none;
-    margin-left: 180px;
+    padding: 0;
+    font-family: 'Roboto';
+    font-style: normal;
  
     
 }
