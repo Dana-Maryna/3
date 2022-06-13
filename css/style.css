@@ -342,7 +342,10 @@ margin: 0 0 50px 0;
 
 .img-box-2:not(:last-child) {
 
-margin: 15px;
+    margin-right: 30px;
+    list-style: none;
+    background: white;
+    border-radius: 0px 0px 4px 4px;
 
 
 }
@@ -353,6 +356,7 @@ margin: 15px;
     list-style: none;
     margin: 0px;
     padding: 0px;
+   
 }
 
 .img-linc {
@@ -376,7 +380,10 @@ margin: 15px;
    
     width: fit-content;
     margin: 15px;
-   
+    margin-right: 30px;
+    list-style: none;
+    background: white;
+    border-radius: 0px 0px 4px 4px;
     
 }
 
