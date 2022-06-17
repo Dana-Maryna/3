@@ -104,6 +104,7 @@ body {
     text-decoration: none;
     color: #757575;
     font-size: 14px;
+    margin-bottom: 9px;
 }
 
 .link-2 {
@@ -132,7 +133,13 @@ body {
     font-size: 14px;
     color: #212121;
    caret-color: auto;
+   
 
+}
+
+.portfolio:hover{
+
+    color: #188CE8;
 }
 
 .contacts {
@@ -172,9 +179,9 @@ body {
 
 }
 
-.main {
+.section {
 
-    padding: 94px 94px;
+    padding: 94px 0;
 }
 
 .list-button {
@@ -196,6 +203,14 @@ margin: 0 0 50px 0;
   
 }
 
+.button:hover{
+    color: #188CE8;
+}
+
+.button-2:hover{
+    color: #188CE8;
+}
+
 .button-2 {
 
     color: #F5F4FA;
@@ -209,6 +224,11 @@ margin: 0 0 50px 0;
     
 }
 
+.cl{
+margin-left: auto;
+margin-right: auto;
+justify-content: center;
+}
 
 
 .effective-solutions {
@@ -240,6 +260,10 @@ margin: 0 0 50px 0;
     padding-top: 16px;
     background:  #2196F3;
     background-color: #188CE8;
+}
+
+.service:hover{
+    color: black;
 }
 
 .section {
@@ -350,8 +374,9 @@ margin: 0 0 50px 0;
     list-style: none;
     background: white;
     border-radius: 0px 0px 4px 4px;
-
-
+display: block;
+height: auto;
+max-width: 100%;
 }
 
 
@@ -397,6 +422,7 @@ margin: 0 0 50px 0;
     flex-wrap:wrap;
     padding: 0;
     list-style: none;
+    justify-content: center;
 }
 
 .div-names{
@@ -420,6 +446,7 @@ margin: 0 0 50px 0;
 .div {
     padding: 20px 24px ;
     border: 1px solid #ECECEC;
+    border-top: none;
 }
 
 .h3 {
@@ -483,6 +510,7 @@ margin: 0 0 50px 0;
 
 .span-2{
     color: #FFFFFF;
+    margin-bottom: 9px;
 }
 
 .address{
@@ -513,6 +541,7 @@ margin: 0 0 50px 0;
     padding: 0;
     font-family: 'Roboto';
     font-style: normal;
+    margin-bottom: 9px;
  
     
 }
